@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-    $('#creator-name, #name').on('mouseenter',function(){
+    $('#creator-name, #name').hover(function(){
         $(this).addClass('active');
     })
 
-    $('#image, #view-icon').on('mouseenter',function(){
+    $('#image, #view-icon').hover(function(){
         $('#image').addClass('active');
         $('#view-icon').addClass('active')
     })

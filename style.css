@@ -32,6 +32,7 @@ main {
     width: 85%;
     margin: 20px auto;
     border-radius: 7px;
+    position: relative;
 }
 
 #image {
@@ -54,10 +55,10 @@ main {
 }
 
 #view-icon.active {
-    display: inline;
+    display: unset;
     position: absolute;
-    top: 188px;
-    left: 397px;
+    top: 41%;
+    left: 41%;
     cursor: pointer;
 }
 
