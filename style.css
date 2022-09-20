@@ -28,10 +28,37 @@ main {
     box-shadow: 0 25px 3px 15px hsl(217deg 58% 10%);
 }
 
-.img {
+.image {
     width: 85%;
     margin: 20px auto;
     border-radius: 7px;
+}
+
+#image {
+    width: 246.5px;
+    height: 246.5px;
+    background: url('images/image-equilibrium.jpg') no-repeat;
+    background-size: cover;
+}
+
+#image.active {
+    cursor: pointer;
+    width: 246.5px;
+    height: 246.5px;
+    background: linear-gradient(hsl(178, 100%, 50%, 0.5), hsl(178, 100%, 50%, 0.5)), url('images/image-equilibrium.jpg') ;
+    background-size: cover;
+}
+
+#view-icon {
+    display: none;
+}
+
+#view-icon.active {
+    display: inline;
+    position: absolute;
+    top: 188px;
+    left: 397px;
+    cursor: pointer;
 }
 
 .content {
@@ -39,9 +66,14 @@ main {
     margin: 0 20px 20px 20px;
 }
 
-.name {
+#name {
     margin-top: 0;
     color: hsl(0, 0%, 100%);
+}
+
+#name.active {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .Info {
@@ -82,6 +114,14 @@ hr {
     margin-top: 6px;
 }
 
+#creator-name {
+    color: hsl(0, 0%, 100%);
+}
+
+#creator-name.active {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
 
 
 
